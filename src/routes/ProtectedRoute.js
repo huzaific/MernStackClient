@@ -24,12 +24,13 @@ export default function ProtectedRoute({component , ...rest}) {
 
     return (
         <Route
+        
           {...rest}
           render={(props) => {
 
             if(loggedIn){
               return <Component {...props} />
-              
+
             }else if(!loggedIn){
               <Redirect
                   to={{
