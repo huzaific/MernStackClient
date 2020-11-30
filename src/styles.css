@@ -1,0 +1,105 @@
+:root {
+
+    --main-color:#dbd9d9;
+}
+
+body{
+    background-color: #f7f7f7;
+}
+.registeration-page{
+   position: relative;
+    height: 100vh;
+    
+    
+}
+
+.registeration-page img.background-img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+
+
+}
+.registeration-page .headings {
+    text-align: center;
+    padding: 20px 0px;
+    color: black;
+}
+.registeration-page .forms-container{
+    padding: 30px 0px;
+}
+
+.login-signup {
+   
+    background-color: white;
+ 
+}
+/* .login-signup:hover{
+    box-shadow: 1px 1px 5px  grey;
+} */
+.login-signup-headings , .login-signup-form{
+    padding: 15px;
+}
+
+.login-signup-form {
+    background-color: #dbd9d9;
+}
+
+.dashboard {
+    
+}
+/* side navbar */
+
+.side-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+    bottom: 0;
+    background-color: var(--main-color);
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.side-nav img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:30px auto;
+    border: 3px solid white;
+}
+
+.side-nav .options {
+    margin: 50px 0px;
+}
+
+.side-nav .options a{
+
+    padding: 15px 0px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 0px;
+    border-bottom: 1px solid #747a76;
+}
+
+.side-nav .options a:hover{
+
+     border-bottom: 1px solid black;
+     cursor: pointer;
+}
+
+/* activity area */
+
+.activity-area {
+    padding: 20px;
+
+    margin-left: 350px;
+    
+}
